@@ -1,0 +1,63 @@
+/* Import in your CSS */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+* {
+  font-family: Cabin, sans-serif;
+}
+
+header {
+  height: 5vh;
+  background-color: lightsteelblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+body {
+  background-color: rgb(237, 190, 156);
+}
+
+#master-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-container {
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 6px;
+  border-radius: 15px;
+  margin-bottom: 2vh;
+  height: 15vh;
+  padding: 10px;
+}
+#form-container h2 {
+  margin-bottom: 10px;
+}
+
+#parent-description-container {
+  border-style: none;
+  border-color: blueviolet;
+  border-width: 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 18px;
+}
+
+.desc-box {
+  border-style: solid;
+  border-color: red;
+  border-width: 8px;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+  padding: 7px;
+}
